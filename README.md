@@ -4,7 +4,7 @@ A proof of concept that demonstrates why Last-Write-Wins (LWW) fails in distribu
 
 ## Author's Note
 
-I've been reading _Designing Data-Intensive Applications_ whilst simultaneously going through an [engineering lab](https://example.com/engineering-lab) that walks through the concepts in the book from first principles using systems thinking.
+I've been reading _Designing Data-Intensive Applications_ whilst simultaneously going through an [engineering lab](https://irreplaceable.engineer/lab/) that walks through the concepts in the book from first principles using systems thinking.
 This POC was inspired by question 6 in the second assessment:
 
 > Your team runs a collaborative document editor deployed globally (US, EU, Sydney). To handle concurrent edits, you implement last-write-wins (LWW) using server timestamps. Users in Sydney report that their edits sometimes "disappear" when US users edit the same document around the same time. The Sydney users swear they saved AFTER seeing the US user's changes.
